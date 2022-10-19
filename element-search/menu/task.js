@@ -16,10 +16,6 @@ for (let i = 0; i < menuLink.length; i++) {
    let menuSub = menuItem.querySelector('.menu_sub');
    let menuClosest = menuLink[i].closest('.menu');
    let menuSubAll = menuClosest.querySelectorAll('.menu_sub');
-   //console.log(menuItem);
-   //console.log(menuSub);
-   //console.log(menuClosest);
-   console.log(menuSubAll);
 
    if (menuSub) {
       menuLink[i].onclick = function () {
